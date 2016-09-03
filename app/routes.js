@@ -15,4 +15,8 @@ app.get('/', function(req, res) {
   res.render('bingbing/index');
 });
 
+app.get('/alchemist/bingbing', function(req, res) {
+  res.render('bingbing/dashboard');
+});
+
 module.exports = app;

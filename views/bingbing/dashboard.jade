@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+    meta(name="apple-mobile-web-app-capable",content="yes")
+    title
+      | ASK : Q&A SYSTEM FOR SIT ORIENTATION.
+    link(rel="stylesheet", href="/stylesheets/bootstrap.min.css")
+    link(rel="stylesheet", href="/stylesheets/style.css")
+    script(src='/javascript/jquery.min.js')
+    script(src='/javascript/socket.io.js')
+    script(src='/javascript/script.js')
+  body
+    .container
+      .row
+        .col-xs-12.click-color
+          h3.text-center BINGBING CONTROLLER
+          //- Normal
+          button.btn.btn-block.red(data-color="red")
+            | RED
+          button.btn.btn-block.blue(data-color="blue")
+            | BLUE
+          button.btn.btn-block.yellow(data-color="yellow")
+            | YELLOW
+          button.btn.btn-block.green(data-color="green")
+            | GREEN
+          button.btn.btn-block.purple(data-color="purple")
+            | PURPLE
+          
+          //- Blink
+          button.btn.btn-block.blink-1(data-color="blink-1")
+            | BLINK-1
+          button.btn.btn-block.blink-2(data-color="blink-2")
+            | BLINK-2
+          button.btn.btn-block.blink-3(data-color="blink-3")
+            | BLINK-3
+          button.btn.btn-block.blink-4(data-color="blink-4")
+            | BLINK-4
+          
+              

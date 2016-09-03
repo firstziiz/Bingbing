@@ -6,7 +6,8 @@ var app = express.Router();
 // --------------------
 
 app.get('/sendbing/:color',function(req,res){
-  req.app.io.emit('bingbing',{ color : "#"+req.params.color });
+  req.app.io.emit('bingbing',{ class : req.params.color });
+  res.send({status:'completed'})
 });
 
 module.exports = app;

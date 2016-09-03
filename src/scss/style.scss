@@ -1,5 +1,59 @@
-// import Bootstrap
+body {
+  transition: all 2s;
+}
 
-@import "bootflat";
-@import "component/core";
+$red: #ff2c2c;
+$blue: #08ffff;
+$yellow: #ffd400;
+$green: #17ff00;
+$purple: #ff00ff;
 
+.red {
+  background-color: $red;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.yellow {
+  background-color: $yellow;
+}
+
+.green {
+  background-color: $green;
+}
+
+.purple {
+  background-color: $purple;
+}
+
+.blink-1 {
+  animation: blink-1 2s infinite;
+}
+
+.blink-2 {
+  animation: blink-2 .3s infinite;
+}
+// Keyframe !
+
+@keyframes blink-1 {
+  0% { background-color: $red; }
+  20% { background-color: $blue; }
+  40% { background-color: $yellow; }
+  60% { background-color: $green; }
+  80% { background-color: $purple; }
+  100% { background-color: $red; }
+}
+
+@keyframes blink-2 {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: black;
+  }
+}

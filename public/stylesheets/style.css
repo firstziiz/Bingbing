@@ -1,3 +1,2 @@
-body {
-  transition: all 2s;
-}
+body{-webkit-transition:all 2s;transition:all 2s}.red{background-color:#ff2c2c}.blue{background-color:#08ffff}.yellow{background-color:#ffd400}.green{background-color:#17ff00}.purple{background-color:#f0f}.blink-1{-webkit-animation:a 2s infinite;animation:a 2s infinite}.blink-2{-webkit-animation:b .3s infinite;animation:b .3s infinite}@-webkit-keyframes a{0%{background-color:#ff2c2c}20%{background-color:#08ffff}40%{background-color:#ffd400}60%{background-color:#17ff00}80%{background-color:#f0f}to{background-color:#ff2c2c}}@keyframes a{0%{background-color:#ff2c2c}20%{background-color:#08ffff}40%{background-color:#ffd400}60%{background-color:#17ff00}80%{background-color:#f0f}to{background-color:#ff2c2c}}@-webkit-keyframes b{0%{background-color:#000}50%{background-color:#fff}to{background-color:#000}}@keyframes b{0%{background-color:#000}50%{background-color:#fff}to{background-color:#000}}
+/*# sourceMappingURL=style.css.map */
